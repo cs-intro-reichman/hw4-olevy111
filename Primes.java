@@ -3,7 +3,7 @@ public class Primes {
        int num = Integer.parseInt(args[0]);
        System.out.println("Prime numbers up to " + num + ":");
        int n = 0;
-       for (int i=0; i<num; i++)
+       for (int i=0; i<=num; i++)
        {
         if (isPrime(i)==true)
         {
